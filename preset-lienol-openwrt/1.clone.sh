@@ -3,7 +3,7 @@
 # download base code
 CODE_DIR=_firmware_code
 CODE_URL=https://github.com/Young-045/openwrt.git
-CODE_BRANCH=23.05
+CODE_BRANCH=21.02
 git clone --depth 1 -b $CODE_BRANCH $CODE_URL $CODE_DIR
 mv ./$CODE_DIR/* ./
 
