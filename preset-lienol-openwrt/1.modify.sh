@@ -43,5 +43,5 @@ sed -i -e '/DISTRIB_/d' -e '/footer.htm/d' -e '/admin_status/d' $ZZZ_PATH
 # replace geodata source
 . $(dirname $0)/../extra-files/update-geodata.sh
 
-sed -i 's/+uci-firewall/+firewall/g' feeds/luci/applications/luci-app-firewall/Makefile
+# sed -i 's/+uci-firewall/+firewall/g' feeds/luci/applications/luci-app-firewall/Makefile
 
